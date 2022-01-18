@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./media/IOrigins.jfif");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-video{
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 70%;
+  padding: 20px;
+  text-align: center; 
+}
+video{
+     height: 600px;
+     width: 1000px;
+}
+
+.topnav {
+  overflow: hidden;
+ background:#4e4d4e; 
+  font-size:2.5vw;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topnav a {
+  float: left;
+background-color: aliceblue;
+  -webkit-background-clip: text;
+   background-clip:text;
+   color: transparent;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-weight: bold;
+   font-size:1.9vw;
+}
+
+.topnav a:hover {
+  background:linear-gradient(#c3e2b7,#d8b293);
+  color: black;
+  opacity: 0.7;
+}
+
+.topnav a.active {
+  /* background-color: #db8ab3; */
+  background:linear-gradient(#c3e2b7,#d8b293);
+  color: rgb(10, 10, 10);
+    opacity: 0.9;
+}
+
+</style>
+    <body>
+    <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="./IOrigins.html">I Origins</a>
+    <a href="./Unforgivable.html">The Unforgiable</a>
+    <a href="./GeminiMan.html">Gemini Man</a>
+    <a href="./theSilenceoftheLambs.html">Silnce of Lambs</a>
+    <a href="./Mr.RobotSeason1.html">MR.Robot</a>
+    <a href="./GoneGirl.html">Gone Girl</a>
+    </div>
+ <div class="bg"> </div>
+        <div class="bg-video">
+        <script src="http://cdn.dashjs.org/latest/dash.all.min.js" ></script>
+         <video data-dashjs-player src="./manifest_IOrigins/manifest_IOrigins.mpd" controls></video>
+        </div>       
+    </body>
+</html>
