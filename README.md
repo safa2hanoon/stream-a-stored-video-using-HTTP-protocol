@@ -20,3 +20,6 @@ the following:
     a. Perform network throttling in your browser to simulate poor network and view in the downloaded video chunks
     b. Use any webpage testing platform such as BrowserStak to simulate network conditions on mobile devices.
 
+use this link to open my website : 
+http://176.119.254.185:8029/
+
