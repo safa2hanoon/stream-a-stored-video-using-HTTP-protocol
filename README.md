@@ -19,5 +19,4 @@ the following:
   9. To validate how your web pages load and stream video in poor network connections
     a. Perform network throttling in your browser to simulate poor network and view in the downloaded video chunks
     b. Use any webpage testing platform such as BrowserStak to simulate network conditions on mobile devices.
-Project discussion will be on Monday 13/12/2021, Tuesday 14/12/2021, and Wednesday, 15/12/2021.
-Exact time slots will be decided later. No report is required. Work individually.
+
